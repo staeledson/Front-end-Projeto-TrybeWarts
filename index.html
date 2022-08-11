@@ -52,17 +52,25 @@
             <input type="email" name="inputemail" id="input-email" placeholder="Email">
           </label>
 
-          <label for="select_house">Selecione a casa:
-            <select name="select_house" id="house">
-              <option value="Gitnória" id="gitnoria-house" >Gitnória</option>
-              <option value="Reactpuff" id="reactpuff-house" >Reactpuff</option>
-              <option value="Corvinode" id="corvinode-house" >Corvinode</option>
-              <option value="Pytherina" id="pytherina-house" >Pytherina</option>
-            </select>
-          </label>  
+          <!-- <label for="select_house"> -->
+          <select name="select_house" id="house">
+            <option value="Gitnória" id="gitnoria-house" >Gitnória</option>
+            <option value="Reactpuff" id="reactpuff-house" >Reactpuff</option>
+            <option value="Corvinode" id="corvinode-house" >Corvinode</option>
+            <option value="Pytherina" id="pytherina-house" >Pytherina</option>
+          </select>  
+          <!-- </label>   -->
         </div>
 
+        <label for="textarea" class="textarea">Deixe seu comentário:
+          <textarea name="textarea" id="textarea" cols="60" rows="10" maxlength="500"></textarea>
+          <span id="counter">500/500</span>
+          <button type="submit">Save</button>
+        </label>
+        
       </div>
+
+      
 
     </form>
 
@@ -71,10 +79,7 @@
     </div>
 
   </main>
-  <footer>
-    <p>Direitos reservados à Trybewarts©</p>
-  </footer>
-  
+
   <footer>
     <p>Direitos reservados à Trybewarts©</p>
   </footer>

@@ -10,6 +10,16 @@ function verificarEmail() {
 const btnLogin = document.getElementById('btn-login');
 btnLogin.addEventListener('click', verificarEmail);
 
+const textArea = document.getElementById('textarea');
+const contadorDeCaracteres = document.getElementById('counter');
+const maximoCaracteres = 500;
+const contadorCaracteres = () => {
+  const caracteresDigitados = textArea.value.length;
+  const counter = maximoCaracteres - caracteresDigitados;
+  contadorDeCaracteres.textContent = `${counter}/500`;
+};
+textArea.addEventListener('input', contadorCaracteres);
+
 // function habilitarBtnSend (btn) {
 //   // btn.
 // }
