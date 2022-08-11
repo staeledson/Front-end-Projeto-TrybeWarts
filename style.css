@@ -5,7 +5,7 @@
 
 .header {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   background-color: rgb(50, 167, 145);
   width: 100%;
   border: black solid 1px;
@@ -13,12 +13,14 @@
 }
 
 .trybewarts-header-logo {
+
   /* border: black solid; */
   width: 120px;
   padding-left: 20%;
 }
 
 .trybewarts-login {
+
   /* border: black solid; */
   display: flex;
   flex-direction: column;
@@ -60,9 +62,9 @@ footer {
   border: black solid 1px;
   border-radius: 5px;
 }
+
 #radioFamily {
   display: flex;
-  
   align-items: center;
   flex-wrap: nowrap;
 }
