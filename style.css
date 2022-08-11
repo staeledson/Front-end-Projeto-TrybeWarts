@@ -1,9 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .header {
-  border: black solid 1px;
   display: flex;
   justify-content:space-between;
   background-color: rgb(50, 167, 145);
   width: 100%;
+  border: black solid 1px;
   border-radius: 5px;
 }
 
@@ -43,8 +48,15 @@
   flex-direction: column;
 }
 
-
-
 main {
   justify-content: space-around;
+}
+
+footer {
+  background-color: rgb(50, 167, 145);
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  border: black solid 1px;
+  border-radius: 5px;
 }
