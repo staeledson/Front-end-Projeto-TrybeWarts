@@ -48,3 +48,10 @@
 main {
   justify-content: space-around;
 }
+
+footer {
+  background-color: rgb(50, 167, 145);
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
