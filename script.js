@@ -1,6 +1,6 @@
 function verificarEmail() {
-  const email = document.getElementById('input-email').value;
-  const pass = document.getElementById('input-password').value;
+  const email = document.getElementById('input-login-email').value;
+  const pass = document.getElementById('input-login-password').value;
   if (email === 'tryber@teste.com' && pass === '123456') {
     return (alert('Olá, Tryber!'));
   }
