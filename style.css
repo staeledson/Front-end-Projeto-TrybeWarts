@@ -57,6 +57,9 @@ footer {
   font-weight: bold;
   display: flex;
   justify-content: center;
+<<<<<<< HEAD
   border: black solid 1px;
   border-radius: 5px;
+=======
+>>>>>>> 1b45a21eeb733dda6998c77a4d0611872456f2b5
 }
