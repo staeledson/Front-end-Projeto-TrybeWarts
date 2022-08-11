@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto-TrybeWarts</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header" id="barra-superior">
+    <div >
+      <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="logo-trybe">
+    </div>
+
+    <h1 id="trybewarts-header-title">Trybewarts</h1>
+
+    <form class="trybewarts-login" action="" method="get">
+
+      <label for="email">
+        <input type="email" name="email" id="input-email" placeholder="Email">
+      </label>
+
+      <label for="password">
+        <input type="text" name="password" id="input-password" placeholder="Senha">
+      </label>
+
+      <label>
+        <button>Entrar</button>
+      </label>
+
+    </form>
+
+  </header>
+
+  <main class="flex-container">
+    <form class="flex-container" id="evaluation-form" action="" method="get">
+
+      <div id="inputs">
+        <div id="name-and-lastname">
+          <label for="inputname">
+            <input type="text" name="inputname" id="input-name" placeholder="Nome">
+          </label>
+  
+          <label for="inputlastname">
+            <input type="text" name="inputlastname" id="input-lastname" placeholder="Sobrenome">
+          </label>
+        </div>
+
+        <div>
+          <label for="inputemail">
+            <input type="email" name="inputemail" id="input-email" placeholder="Email">
+          </label>
+
+          <label for="select_house">Selecione a casa:
+            <select name="select_house" id="house">
+              <option value="Gitnória" id="gitnoria-house" >Gitnória</option>
+              <option value="Reactpuff" id="reactpuff-house" >Reactpuff</option>
+              <option value="Corvinode" id="corvinode-house" >Corvinode</option>
+              <option value="Pytherina" id="pytherina-house" >Pytherina</option>
+            </select>
+          </label>  
+        </div>
+
+      </div>
+
+      
+      
+    </form>
+    
+    
+    <div>
+      <img id="trybewarts-forms-logo" src="/images/trybewarts-colored.svg" alt="">
+    </div>
+
+  </main>
+  
+  <script src="script.js"></script>
+</body>
+</html>
