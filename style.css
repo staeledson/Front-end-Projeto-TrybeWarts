@@ -56,7 +56,6 @@ main {
 
 footer {
   background-color: rgb(50, 167, 145);
-  font-weight: bold;
   display: flex;
   justify-content: center;
   border: black solid 1px;
