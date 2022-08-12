@@ -20,9 +20,15 @@ const contadorCaracteres = () => {
 };
 textArea.addEventListener('input', contadorCaracteres);
 
-// function habilitarBtnSend (btn) {
-//   // btn.
-// }
-
-// const btnEnviar = document.getElementById('');
-// btnEnviar.addEventListener('click', );
+function habilitarBtnSend() {
+  const checkBox = document.getElementById('agreement');
+  const btnEnviar = document.getElementById('submit-btn');
+  if (checkBox.checked) {
+    btnEnviar.disabled = false;
+  } else {
+    btnEnviar.disabled = true;
+  }
+}
+if (false) {
+  habilitarBtnSend();
+}
