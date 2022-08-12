@@ -76,22 +76,22 @@
        <label id="label-content" for="">Qual conteúdo você está com mais vontade de aprender?</label>
        <br>
         <label for="hofs">
-          <input type="checkbox" name="" class="subject" id="hofs" value="HoFs">HoFs
+          <input type="checkbox" name="conteudo" class="subject" id="hofs" value="HoFs">HoFs
         </label>
         <label for="jest">
-          <input type="checkbox" name="" class="subject" id="jest" value="Jest">Jest
+          <input type="checkbox" name="conteudo" class="subject" id="jest" value="Jest">Jest
         </label>
         <label for="promises">
-          <input type="checkbox" name="" class="subject" id="promises" value="Promises">Promises
+          <input type="checkbox" name="conteudo" class="subject" id="promises" value="Promises">Promises
         </label>
         <label for="react">
-          <input type="checkbox" name="" class="subject" id="react" value="React">React
+          <input type="checkbox" name="conteudo" class="subject" id="react" value="React">React
         </label>
         <label for="sql">
-          <input type="checkbox" name="" class="subject" id="sql" value="SQL">SQL
+          <input type="checkbox" name="conteudo" class="subject" id="sql" value="SQL">SQL
         </label>
         <label for="python">
-          <input type="checkbox" name="" class="subject" id="python" value="Python">Python
+          <input type="checkbox" name="conteudo" class="subject" id="python" value="Python">Python
         </label>
       <div id="divAvaliacao">
         <label for="" id="label-rate">Como você avalia a Trybewarts?</label>
@@ -131,7 +131,6 @@
         <label for="textarea" class="textarea">Deixe seu comentário:
           <textarea name="textarea" id="textarea" cols="60" rows="10" maxlength="500"></textarea>
           <span id="counter">500/500</span>
-          <button type="submit">Save</button>
         </label>
 
         <div>
@@ -141,7 +140,31 @@
         </div>
         
       </div>
-      <button type="submit" id="submit-btn" disabled>Enviar</button >
+      <button type="submit" id="submit-btn" disabled onclick="validarForm()">Enviar</button >
+    </form>
+
+    <form id="form-data">
+      <label>Nome: </label>
+      <label id="name-data"></label>
+      <br>
+      <label>Email: </label>
+      <label id="email-data"></label>
+      <br>    
+      <label>Casa: </label>
+      <label id="house-data"></label>
+      <br>  
+      <label>Família: </label>
+      <label id="family-data"></label>
+      <br>  
+      <label>Matérias: </label>
+      <label id="conteudo-data"></label>
+      <br>
+      <label>Avaliação: </label>
+      <label id="rate-data"></label>
+      <br>
+      <label>Observações: </label>
+      <label id="text-data"></label>
+      <br> 
     </form>
 
     <div>
