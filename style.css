@@ -1,11 +1,32 @@
 * {
   margin: 0;
   padding: 0;
+  font: size large;
+}
+
+main {
+  background-image: url(/images/Hogwarts2.webp);
+  background-position: center;
+  background-size: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 50px;
+}
+
+footer {
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  justify-content: center;
+  border: black solid 1px;
+  border-radius: 5px;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: rgb(50, 167, 145);
   width: 100%;
   border: black solid 1px;
@@ -13,18 +34,14 @@
 }
 
 .trybewarts-header-logo {
-
-  /* border: black solid; */
   width: 120px;
   padding-left: 20%;
 }
 
 .trybewarts-login {
-
-  /* border: black solid; */
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding-right: 5%;
 }
 
@@ -40,6 +57,7 @@
 #evaluation-form {
   width: 675px;
   flex-direction: column;
+  padding-top: 3%;
 }
 
 #trybewarts-forms-logo {
@@ -50,18 +68,6 @@
   flex-direction: column;
 }
 
-main {
-  justify-content: space-around;
-}
-
-footer {
-  background-color: rgb(50, 167, 145);
-  display: flex;
-  justify-content: center;
-  border: black solid 1px;
-  border-radius: 5px;
-}
-
 #radioFamily {
   display: flex;
   align-items: center;
@@ -70,4 +76,73 @@ footer {
 
 #form-data {
   display: none;
+}
+
+#name-and-lastname {
+  display: flex;
+  justify-content:flex-start;
+  padding-bottom: 2%;
+}
+
+#email-and-casa {
+  display: flex;
+  justify-content:flex-start;
+  padding-bottom: 2%;
+}
+
+#family {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  padding-bottom: 2%;
+}
+
+#label-content {
+  display: flex;
+  align-items:flex-start;
+}
+
+#qual-conteudo {
+  padding-bottom: 2%;
+}
+
+#divAvaliacao {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  padding-bottom: 2%;
+}
+
+#textarea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: rgba(255, 253, 253, 0.747);
+}
+
+#check-permission {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#input-name {
+  background-color: rgba(255, 253, 253, 0.747);
+  border-radius: 3px;
+}
+
+#input-lastname {
+  background-color: rgba(255, 253, 253, 0.747);
+  border-radius: 3px;
+}
+
+#input-email {
+  background-color: rgba(255, 253, 253, 0.747);
+  border-radius: 3px;
+}
+
+#house {
+  background-color: rgba(255, 253, 253, 0.747);
+  border-radius: 3px;
 }
